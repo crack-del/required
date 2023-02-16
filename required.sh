@@ -76,7 +76,7 @@ fi
 if [ $r = 2 ]
 then
 clear
-toilet -F border -f mono12  "SuperUser"  | lolcat
+toilet -F border -f mono12  "Root"  | lolcat
 apt update && apt upgrade -y && apt install sudo && sudo apt install wget && sudo apt install pip && sudo apt install git && pip install rich && pip install requests && pip install bs4 && pip install socks && sudo apt install python3 && python --version && sudo apt install tar && sudo apt install zip
 clear
 exit
